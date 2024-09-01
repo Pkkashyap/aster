@@ -1,9 +1,11 @@
-import { BotMessageSquare } from "lucide-react";
-import { BatteryCharging } from "lucide-react";
-import { Fingerprint } from "lucide-react";
-import { ShieldHalf } from "lucide-react";
-import { PlugZap } from "lucide-react";
-import { GlobeLock } from "lucide-react";
+import {
+  Briefcase,
+  Fingerprint,
+  FileText,
+  Bell,
+  Users,
+  BarChart2,
+} from "lucide-react";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -18,107 +20,107 @@ export const navItems = [
   { label: "Pricing", href: "#" },
   { label: "Testimonials", href: "#" },
 ];
-
 export const testimonials = [
   {
     user: "John Doe",
-    company: "Stellar Solutions",
+    company: "Global Tech Inc.",
     image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    text: "Aster Consultancy Services helped me land my dream job in a leading tech company. Their team was supportive and provided valuable insights throughout the process.",
   },
   {
     user: "Jane Smith",
-    company: "Blue Horizon Technologies",
+    company: "Innovative Solutions",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "I was struggling to find the right job opportunities until I connected with Aster Consultancy. Their personalized approach made all the difference. Highly recommend their services!",
   },
   {
     user: "David Johnson",
-    company: "Quantum Innovations",
+    company: "NextGen Industries",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    text: "The team at Aster Consultancy was instrumental in helping us find the perfect candidates for our growing company. Their dedication and expertise are truly commendable.",
   },
   {
     user: "Ronee Brown",
-    company: "Fusion Dynamics",
+    company: "Bright Future Enterprises",
     image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    text: "Thanks to Aster Consultancy, I was able to transition into a new industry with ease. Their guidance and support were crucial in securing my new role.",
   },
   {
     user: "Michael Wilson",
-    company: "Visionary Creations",
+    company: "Pioneer Corp.",
     image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+    text: "Aster Consultancy Services exceeded our expectations in every way. They understood our hiring needs and delivered top talent that fit perfectly with our company culture.",
   },
   {
     user: "Emily Davis",
-    company: "Synergy Systems",
+    company: "Global Ventures",
     image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    text: "From the first interaction to the final placement, Aster Consultancy was professional, efficient, and effective. I couldn't have asked for a better experience.",
   },
 ];
 
 export const features = [
   {
-    icon: <BotMessageSquare />,
-    text: "Multi national companies",
+    icon: <Briefcase />,
+    text: "Global Job Opportunities",
     description:
-      "Your Gateway to MNC Careers – Connecting Ambitious Job Seekers with Top Global Opportunities",
+      "Connecting Ambitious Job Seekers with Top Global Companies for Career Growth.",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "Personalized Job Matching",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Tailor your job search with a platform that understands your unique skills and career aspirations.",
   },
   {
-    icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    icon: <FileText />,
+    text: "Industry-Specific Templates",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Utilize our industry-specific resume and cover letter templates to stand out in your job applications.",
   },
   {
-    icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    icon: <Bell />,
+    text: "Real-Time Job Alerts",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Stay updated with real-time notifications for new job openings that match your profile.",
   },
   {
-    icon: <PlugZap />,
-    text: "Collaboration Tools",
+    icon: <Users />,
+    text: "Collaborative Hiring Solutions",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Work with our team to streamline your hiring process and find the best talent for your company.",
   },
   {
-    icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    icon: <BarChart2 />,
+    text: "Comprehensive Analytics",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Gain insights into job market trends and track the success of your applications with our analytics dashboard.",
   },
 ];
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Effortless Job Matching",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Quickly connect with job opportunities that perfectly match your skills and career goals.",
   },
   {
-    title: "Review code without worry",
+    title: "Seamless Resume Review",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Get expert feedback on your resume to ensure it stands out to potential employers.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "AI Assistance for Job Search",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Leverage AI tools to streamline your job search and apply to relevant positions faster.",
   },
   {
-    title: "Share work in minutes",
+    title: "Easy Application Sharing",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Share your resume and application materials with potential employers in just a few clicks.",
   },
 ];
+
 
 export const pricingOptions = [
   {
